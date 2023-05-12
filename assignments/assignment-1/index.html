@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html style="font-family: Arial, sans-serif">
+    <head>
+        <title>Inline CSS Exercise</title>
+
+        <style>
+            body {
+                background-color: #f2f2f2;
+                color: #333;
+            }
+
+            header {
+                background-color: #007bff;
+                padding: 20px;
+                color: #fff;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            main {
+                width: 60%;
+                margin: 0 auto;
+            }
+
+            section {
+                background-color: #fff;
+                padding: 20px;
+                margin-top: 20px;
+                border-radius: 5px;
+            }
+
+            h2 {
+                color: #444;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            ul {
+                list-style-type: none;
+            }
+
+            li {
+                padding: 10px 0;
+            }
+
+            ol {
+                list-style-type: decimal;
+            }
+
+            input[type="text"] {
+                display: block;
+                margin-bottom: 10px;
+                padding: 5px;
+                width: 100%;
+            }
+
+            input[type="email"] {
+                display: block;
+                margin-bottom: 10px;
+                padding: 5px;
+                width: 100%;
+            }
+
+            select {
+                display: block;
+                margin-bottom: 10px;
+                padding: 5px;
+                width: 100%;
+            }
+
+            input[type="submit"] {
+                background-color: #007bff;
+                color: #fff;
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+
+            footer {
+                background-color: #007bff;
+                padding: 20px;
+                color: #fff;
+                text-align: center;
+            }
+
+            dt {
+                font-weight: bold;
+            }
+            dd {
+                margin-bottom: 10px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            th {
+                background-color: #007bff;
+                padding: 10px;
+                color: #fff;
+            }
+
+            td {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome!</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Our Services</h2>
+                <div>
+                    <ul>
+                        <li>Service 1</li>
+                        <li>Service 2</li>
+                        <li>Service 3</li>
+                    </ul>
+                    <ol>
+                        <li>Step 1</li>
+                        <li>Step 2</li>
+                        <li>Step 3</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <h2>Contact Us</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" />
+                    <input type="email" placeholder="Your Email" />
+                    <select>
+                        <option>Choose a subject</option>
+                        <option>General Inquiry</option>
+                        <option>Support</option>
+                        <option>Sales</option>
+                    </select>
+                    <input type="submit" />
+                </form>
+            </section>
+            <section>
+                <h2>Our Location</h2>
+                <dl>
+                    <dt>Street</dt>
+                    <dd>123 Main Street</dd>
+                    <dt>City</dt>
+                    <dd>Anytown</dd>
+                    <dt>Country</dt>
+                    <dd>USA</dd>
+                </dl>
+            </section>
+            <section>
+                <h2>Our Pricing</h2>
+                <table>
+                    <tr>
+                        <th>Service</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Service 1</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Service 2</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>Service 3</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td>Service 4</td>
+                        <td>$400</td>
+                    </tr>
+                    <tr>
+                        <td>Service 5</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Service 6</td>
+                        <td>$600</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2023 Our Company</p>
+        </footer>
+    </body>
+</html>
