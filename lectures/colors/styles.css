@@ -1,0 +1,35 @@
+div {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.transparency {
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+.transparency img {
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #000000a9;
+    background-color: hsla(0, 0%, 0%, 80%);
+}
+
+.something {
+    color: #000000;
+    color: #000;
+    color: #aaffcc;
+    color: #afc;
+}
