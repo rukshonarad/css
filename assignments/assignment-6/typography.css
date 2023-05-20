@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Franklin:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:wght@400;600&display=swap");
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    border: 1px solid black;
+}
+
+.heading-1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 90px;
+}
+
+.heading-2 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+}
+
+.heading-3 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+}
+
+.heading-4 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+}
+
+.heading-5 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.heading-6 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.text-xl {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.text-lg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.text-md {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.text-sm {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-xs {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.font-weight-400 {
+    font-weight: 400;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
