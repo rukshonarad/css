@@ -1,0 +1,19 @@
+.box {
+    margin: 20px auto;
+    padding: 50px 20px;
+    border: 1px solid black;
+}
+.title {
+    margin: 0 auto 20px;
+    border-top: 2px dashed blue;
+    border-bottom: 2px dashed blue;
+}
+
+.test-box-1 {
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+.test-box-2 {
+    margin-top: 50px;
+    border: 1px solid black;
+}
