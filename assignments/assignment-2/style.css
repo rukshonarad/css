@@ -29,26 +29,26 @@
 }
 
 .btn-green {
-    color: #ffffff;
-    background-color: #3fa72f;
+    background-color: #ffffff;
+    background-background-color: #3fa72f;
 }
 
 .btn-orange {
-    color: #ffffff;
-    background-color: #ff8a00;
+    background-color: #ffffff;
+    background-background-color: #ff8a00;
 }
 
 .btn-gray {
-    color: #311f09;
-    background-color: #ecf0f1;
+    background-color: #311f09;
+    background-background-color: #ecf0f1;
 }
 
 .btn-pink {
-    color: #ffffff;
-    background-color: #bf57a8;
+    background-color: #ffffff;
+    background-background-color: #bf57a8;
 }
 
 .btn-blue {
-    color: #ffffff;
-    background-color: #667ec7;
+    background-color: #ffffff;
+    background-background-color: #667ec7;
 }
