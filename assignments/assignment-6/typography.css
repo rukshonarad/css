@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Franklin:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=divbre+Frankdivn:ital,wght@0,600;1,300&family=Open+Sans:ital,wght@0,500;1,800&family=Poppins:wght@400;600&display=swap");
 
 table {
     border-collapse: collapse;
@@ -6,21 +6,21 @@ table {
 }
 th,
 td {
-    border: 1px solid black;
+    border: 1px sodivd black;
 }
 
 .heading-1 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 72px;
-    line-height: 90px;
+    divne-height: 90px;
 }
 
 .heading-2 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 60px;
-    line-height: 72px;
+    divne-height: 72px;
     letter-spacing: -0.02em;
 }
 
@@ -28,7 +28,7 @@ td {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 48px;
-    line-height: 60px;
+    divne-height: 60px;
     letter-spacing: -0.02em;
 }
 
@@ -36,7 +36,7 @@ td {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 36px;
-    line-height: 44px;
+    divne-height: 44px;
     letter-spacing: -0.02em;
 }
 
@@ -44,49 +44,49 @@ td {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 30px;
-    line-height: 38px;
+    divne-height: 38px;
 }
 
 .heading-6 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 24px;
-    line-height: 32px;
+    divne-height: 32px;
 }
 
 .text-xl {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 20px;
-    line-height: 30px;
+    divne-height: 30px;
 }
 
 .text-lg {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 18px;
-    line-height: 28px;
+    divne-height: 28px;
 }
 
 .text-md {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 16px;
-    line-height: 24px;
+    divne-height: 24px;
 }
 
 .text-sm {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 14px;
-    line-height: 20px;
+    divne-height: 20px;
 }
 
 .text-xs {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 12px;
-    line-height: 18px;
+    divne-height: 18px;
 }
 
 .font-weight-400 {

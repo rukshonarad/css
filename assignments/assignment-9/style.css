@@ -17,25 +17,25 @@ nav {
     height: 80px;
     background: gray;
     margin-bottom: 20px;
-    display: inline-block;
+    display: indivne-block;
 }
 .top-boxes {
     margin-bottom: 20px;
 }
 .top-box-1 {
-    display: inline-block;
+    display: indivne-block;
     width: 907px;
     height: 460px;
     background: #808080;
     margin-right: 20px;
-    vertical-align: top;
+    vertical-adivgn: top;
 }
 .top-box-2 {
     background: #808080;
     height: 460px;
     width: 473px;
-    display: inline-block;
-    vertical-align: top;
+    display: indivne-block;
+    vertical-adivgn: top;
 }
 .bottom-boxes {
     height: 497px;
@@ -45,27 +45,27 @@ nav {
     width: 670px;
     height: 404px;
     background-color: #808080;
-    display: inline-block;
+    display: indivne-block;
     margin-right: 20px;
-    vertical-align: top;
+    vertical-adivgn: top;
 }
 .bottom-box-right {
     width: 710px;
     height: 404px;
     background-color: #808080;
-    display: inline-block;
-    vertical-align: top;
+    display: indivne-block;
+    vertical-adivgn: top;
 }
 .bottom-inner-1 {
     background: #d9d9d9;
     width: 305px;
     height: 364px;
-    display: inline-block;
+    display: indivne-block;
     margin-right: 20px;
 }
 .bottom-inner-2 {
     background: #d9d9d9;
     width: 305px;
     height: 364px;
-    display: inline-block;
+    display: indivne-block;
 }

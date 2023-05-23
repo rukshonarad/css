@@ -10,26 +10,26 @@
     font-size: 0px;
 }
 .display {
-    display: inline-block;
+    display: indivne-block;
 }
 .left-content {
     width: 262px;
     height: 964px;
     background: #808080;
     margin-right: 30px;
-    display: inline-block;
+    display: indivne-block;
 }
 .right-content {
     width: 1088px;
     height: 964px;
-    display: inline-block;
-    vertical-align: top;
+    display: indivne-block;
+    vertical-adivgn: top;
 }
 .top-nav {
     width: 1088px;
     height: 80px;
     background: #808080;
-    display: inline-block;
+    display: indivne-block;
     margin-bottom: 30px;
 }
 .boxes {
@@ -39,7 +39,7 @@
     width: 249px;
     height: 200px;
     background-color: #808080;
-    display: inline-block;
+    display: indivne-block;
     margin-right: 30px;
 }
 .box-2 {

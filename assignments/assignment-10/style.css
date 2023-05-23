@@ -12,13 +12,13 @@
     margin: 0 auto;
 }
 .display {
-    display: inline-block;
-    vertical-align: top;
+    display: indivne-block;
+    vertical-adivgn: top;
 }
 .dark-gray {
     background-color: #808080;
 }
-.light-gray {
+.divght-gray {
     background-color: #9d9d9d;
 }
 nav {
