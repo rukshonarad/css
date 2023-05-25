@@ -12,8 +12,12 @@ body {
     background-color: rgb(174, 174, 207);
     font-size: 0px;
 }
+.main {
+    height: 420px;
+    margin-bottom: 10px;
+}
 p {
-    font-size: 15px;
+    font-size: 10px;
 }
 h1 {
     font-size: 20px;
@@ -29,10 +33,11 @@ h2 {
 h3 {
     font-size: 20px;
 }
-.h3 {
+h4 {
     color: #e74c3c;
     display: inline-block;
     font-size: 20px;
+    margin-left: 60px;
 }
 
 header {
@@ -40,28 +45,26 @@ header {
     margin-left: 116px;
 }
 
-ul {
-}
-
 .numbers-top {
     color: #e74c3c;
     display: inline-block;
     font-size: 20px;
-    width: 58px;
+    width: 57px;
     height: 58px;
-    font-weight: 35px;
     margin-right: 3px;
 }
 .numbers-side {
     margin-left: 30px;
     display: inline-block;
+    height: 420px;
 }
 .numbers {
     text-align: center;
     color: #2b2423;
     font-size: 20px;
     width: 58px;
-    height: 58px;
+    height: 59px;
+    margin-bottom: 5px;
 }
 .colum-blue {
     display: inline-block;
@@ -73,6 +76,7 @@ ul {
     height: 58px;
     width: 58px;
     margin-bottom: 3px;
+    padding: 4px;
 }
 .blue {
     background-color: rgb(71, 143, 226);
@@ -92,15 +96,21 @@ ul {
     display: inline-block;
     margin-left: 3px;
 }
+
 .colum-pink {
     display: inline-block;
     margin-left: 3px;
 }
-.colum-green {
+.colum-green-1 {
     display: inline-block;
-    margin-left: 147px;
+    margin-left: 50px;
 }
-.footer {
-    width: 1138px;
-    margin-top: 10px;
+
+.colum-green-2 {
+    display: inline-block;
+    margin-left: 90px;
+}
+footer {
+    display: inline-block;
+    margin-bottom: 20px;
 }
