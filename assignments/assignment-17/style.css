@@ -88,9 +88,7 @@ section {
     position: absolute;
     top: calc((200px - 25px) / 2);
 }
-.scale-one {
-    padding: 50px;
-}
+
 .scale {
     position: relative;
     height: 125px;
