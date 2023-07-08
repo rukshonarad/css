@@ -33,7 +33,8 @@ button.large {
 button#btn {
     font-size: 20px;
 }
-/* --------------- */
+/* 0,0,1,1 */
+/* 0,1,0,1 */
 /* Scenario 5: */
 a.link {
     color: blue;
@@ -41,15 +42,17 @@ a.link {
 .secondary {
     color: red;
 }
-/* --------------- */
+/* 0,0,1,1 */
+/* 0,0,1,0 */
 /* Scenario 6: */
 #banner h1 {
-    color: white;
+    color: rgb(231, 17, 17);
 }
 .hero h1 {
     color: black;
 }
-/* --------------- */
+/* 0,1,0,1 */
+/* 0,0,1,1 */
 /* Scenario 7: */
 .container p {
     color: green;
@@ -57,7 +60,8 @@ a.link {
 div .text {
     color: yellow;
 }
-/* --------------- */
+/* 0,0,1,1 */
+/* 0,0,1,1 */
 /* Scenario 8: */
 #post .postTitle {
     font-size: 36px;
@@ -65,15 +69,17 @@ div .text {
 .blogPost h2 {
     font-size: 32px;
 }
-/* --------------- */
+/* 0,1,1,0 */
+/* 0,0,1,1 */
 /* Scenario 9: */
 #banner .headline {
-    color: white;
+    color: rgb(232, 66, 15);
 }
 .hero h1 {
     color: black;
 }
-/* --------------- */
+/* 0,1,1,0 */
+/* 0,0,1,1 */
 /* Scenario 10: */
 .primary .active {
     color: blue;
@@ -81,7 +87,8 @@ div .text {
 #nav li {
     color: red;
 }
-/* --------------- */
+/* 0,0,2,0 */
+/* 0,1,0,1 */
 /* Scenario 11: */
 #mainNav .active {
     color: red;
@@ -89,7 +96,8 @@ div .text {
 .siteNav a {
     color: blue;
 }
-/* --------------- */
+/* 0,1,1,0 */
+/* 0,0,1,1 */
 /* Scenario 12: */
 .container p {
     color: green;
@@ -97,7 +105,8 @@ div .text {
 div .text {
     color: yellow;
 }
-/* --------------- */
+/* 0,0,1,0 */
+/* 0,0,1,1 */
 /* Scenario 13: */
 #post .postTitle {
     font-size: 24px;
@@ -105,15 +114,17 @@ div .text {
 .blogPost h2 {
     font-size: 20px;
 }
-/* --------------- */
+/* 0,1,1,0 */
+/* 0,0,1,1 */
 /* Scenario 14: */
 #banner .headline {
-    color: white;
+    color: rgb(233, 22, 22);
 }
 .hero h1 {
     color: black;
 }
-/* --------------- */
+/* 0,1,1,0 */
+/* 0,0,1,1 */
 /* Scenario 15: */
 .primary .active {
     color: blue;
@@ -121,7 +132,8 @@ div .text {
 #nav li {
     color: red;
 }
-/* --------------- */
+/* 0,0,2,0 */
+/* 0,1,0,1 */
 /* Scenario 16: */
 .siteHeader .logo {
     font-size: 30px;
@@ -129,7 +141,8 @@ div .text {
 #header h1 {
     font-size: 28px;
 }
-/* --------------- */
+/* 0,0,2,0 */
+/* 0,1,0,1 */
 /* Scenario 17: */
 form .inputField {
     border-color: green;
@@ -137,7 +150,8 @@ form .inputField {
 #signup input {
     border-color: red;
 }
-/* --------------- */
+/* 0,0,1,1 */
+/* 0,1,0,1 */
 /* Scenario 18: */
 .siteContent .introText {
     font-size: 16px;
@@ -145,7 +159,8 @@ form .inputField {
 #content p {
     font-size: 18px;
 }
-/* --------------- */
+/* 0,0,2,0 */
+/* 0,1,0,1 */
 /* Scenario 19: */
 .siteSidebar .widgetTitle {
     font-size: 22px;
@@ -153,7 +168,8 @@ form .inputField {
 #sidebar h3 {
     font-size: 20px;
 }
-/* --------------- */
+/* 0,0,2,0 */
+/* 0,1,0,1 */
 /* Scenario 20: */
 .siteFooter .copyright {
     color: white;
@@ -161,3 +177,5 @@ form .inputField {
 #footer p {
     color: gray;
 }
+/* 0,0,2,0 */
+/* 0,1,0,1 */
