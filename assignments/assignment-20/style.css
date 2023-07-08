@@ -1,0 +1,163 @@
+/* Scenario 1: */
+p#intro {
+    color: blue;
+}
+p {
+    color: red;
+}
+/* 0,1,0,0 */
+/* 0,0,0,1 */
+/* Scenario 2: */
+.highlight p {
+    color: green;
+}
+div p {
+    color: orange;
+}
+/* 0,0,1,1 */
+/* 0,0,0,2 */
+/* Scenario 3: */
+h1.main {
+    font-size: 24px;
+}
+#title {
+    font-size: 30px;
+}
+/* 0,0,1,1 */
+/* 0,1,0,0 */
+
+/* Scenario 4: */
+button.large {
+    font-size: 18px;
+}
+button#btn {
+    font-size: 20px;
+}
+/* --------------- */
+/* Scenario 5: */
+a.link {
+    color: blue;
+}
+.secondary {
+    color: red;
+}
+/* --------------- */
+/* Scenario 6: */
+#banner h1 {
+    color: white;
+}
+.hero h1 {
+    color: black;
+}
+/* --------------- */
+/* Scenario 7: */
+.container p {
+    color: green;
+}
+div .text {
+    color: yellow;
+}
+/* --------------- */
+/* Scenario 8: */
+#post .postTitle {
+    font-size: 36px;
+}
+.blogPost h2 {
+    font-size: 32px;
+}
+/* --------------- */
+/* Scenario 9: */
+#banner .headline {
+    color: white;
+}
+.hero h1 {
+    color: black;
+}
+/* --------------- */
+/* Scenario 10: */
+.primary .active {
+    color: blue;
+}
+#nav li {
+    color: red;
+}
+/* --------------- */
+/* Scenario 11: */
+#mainNav .active {
+    color: red;
+}
+.siteNav a {
+    color: blue;
+}
+/* --------------- */
+/* Scenario 12: */
+.container p {
+    color: green;
+}
+div .text {
+    color: yellow;
+}
+/* --------------- */
+/* Scenario 13: */
+#post .postTitle {
+    font-size: 24px;
+}
+.blogPost h2 {
+    font-size: 20px;
+}
+/* --------------- */
+/* Scenario 14: */
+#banner .headline {
+    color: white;
+}
+.hero h1 {
+    color: black;
+}
+/* --------------- */
+/* Scenario 15: */
+.primary .active {
+    color: blue;
+}
+#nav li {
+    color: red;
+}
+/* --------------- */
+/* Scenario 16: */
+.siteHeader .logo {
+    font-size: 30px;
+}
+#header h1 {
+    font-size: 28px;
+}
+/* --------------- */
+/* Scenario 17: */
+form .inputField {
+    border-color: green;
+}
+#signup input {
+    border-color: red;
+}
+/* --------------- */
+/* Scenario 18: */
+.siteContent .introText {
+    font-size: 16px;
+}
+#content p {
+    font-size: 18px;
+}
+/* --------------- */
+/* Scenario 19: */
+.siteSidebar .widgetTitle {
+    font-size: 22px;
+}
+#sidebar h3 {
+    font-size: 20px;
+}
+/* --------------- */
+/* Scenario 20: */
+.siteFooter .copyright {
+    color: white;
+}
+#footer p {
+    color: gray;
+}
