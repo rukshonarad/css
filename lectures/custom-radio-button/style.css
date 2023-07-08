@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+body {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header {
+    position: relative;
+    padding: 20px;
+}
+.mainRadio {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.newRadio {
+    position: absolute;
+    top: 18px;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(239, 245, 245);
+    border: solid black;
+}
+.newRadio:hover {
+    border-color: white;
+    background-color: rgb(65, 65, 63);
+}
+input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    opacity: 0.1;
+}
+input[type="radio"]:checked + .newRadio {
+    border-color: rgb(247, 242, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./globe.png);
+    transform: scale(1.5);
+    transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked + .newRadio2 ::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: white;
+    background-color: black;
+}
+/* Second */
+.secondRadio {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.newRadio2 {
+    position: absolute;
+    top: 18px;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(239, 245, 245);
+    border: solid black;
+}
+.newRadio2:hover {
+    border-color: white;
+    background-color: rgb(65, 65, 63);
+}
+input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+input[type="radio"]:checked + .newRadio2 {
+    border-color: rgb(36, 33, 33);
+    background-color: rgb(243, 238, 238);
+    transform: scale(1.5);
+    transition: all 0.2s ease;
+    background-image: url(./badge-check.png);
+}
+
+/* Third*/
+.thirdRadio {
+    padding-left: 50px;
+    margin-top: 10px;
+}
+.newRadio3 {
+    position: absolute;
+    top: 18px;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    background-color: rgb(239, 245, 245);
+    border: solid black;
+}
+.newRadio3:hover {
+    border-color: white;
+    background-color: rgb(65, 65, 63);
+}
+input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+input[type="radio"]:checked + .newRadio3 {
+    border-color: rgb(36, 33, 33);
+    background-color: rgb(243, 238, 238);
+    transform: scale(1.5);
+    transition: all 0.2s ease;
+    background-image: url(./phone.png);
+}
